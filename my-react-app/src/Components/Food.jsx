@@ -4,7 +4,8 @@ const Food = () => {
 
   return (
     <ul>
-      <li>Aplle</li>
+      <li>{food1}</li>
+      <li>{food2}</li>
     </ul>
   );
 };
