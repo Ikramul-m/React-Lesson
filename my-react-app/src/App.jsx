@@ -1,7 +1,11 @@
 import Header from "./assets/Header";
 
-function App() {
-  <Header />;
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+    </>
+  );
+};
 
 export default App;
