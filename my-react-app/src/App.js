@@ -1,13 +1,18 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
-  // function Alert() {
-  //   alert("Hello world");
-  // }
+
+  const [data,setData] = useState("ikram")
+  function updateData(){
+    setData("Haque")
+  }
+
   return (
     <div className="App">
+      <h1>{data}</h1>
       <h1>Hello World</h1>
-      <button onClick={() => alert("Ikramul")}>Click Me</button>
+      <button onClick={updateData}>Click Me</button>
     </div>
   );
 }
