@@ -2,10 +2,9 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-
-  const [data,setData] = useState("ikram")
-  function updateData(){
-    setData("Haque")
+  const [data, setData] = useState("ikram");
+  function updateData() {
+    setData("Haque");
   }
 
   return (
