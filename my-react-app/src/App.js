@@ -2,16 +2,16 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [data, setData] = useState("ikram");
+  const [data, setData] = useState(0);
   function updateData() {
-    setData("Haque");
+    setData(data + 1);
+    // alert("Data updated successfully")
   }
 
   return (
     <div className="App">
       <h1>{data}</h1>
-      <h1>Hello World</h1>
-      <button onClick={updateData}>Click Me</button>
+      <button onClick={updateData}>Update</button>
     </div>
   );
 }
