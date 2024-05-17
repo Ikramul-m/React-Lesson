@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./Student";
 
 function App() {
   const [data, setData] = useState(0);
