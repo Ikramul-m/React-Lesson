@@ -1,18 +1,16 @@
-import { useState } from "react";
+
 import "./App.css";
 import "./Student";
+import Student from "./Student";
 
 function App() {
-  const [data, setData] = useState(0);
-  function updateData() {
-    setData(data + 1);
-    // alert("Data updated successfully")
-  }
 
   return (
     <div className="App">
-      <h1>{data}</h1>
-      <button onClick={updateData}>Update</button>
+      <h1>
+        Reactjs
+      </h1>
+      <Student name={"anil"} email={"anil@test.com"}/>
     </div>
   );
 }

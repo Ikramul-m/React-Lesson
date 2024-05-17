@@ -1,7 +1,10 @@
-function Student(){
+function Student(p){
+
+    console.log(p)
     return (
         <div>
-            <h1>Student compnents</h1>
+            <h1>Hello {p.name}</h1>
+            <h2>{p.email}</h2>
         </div>
     )
 }
